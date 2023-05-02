@@ -1,7 +1,9 @@
-primeiro_valor = 15
-segundo_valor = 20
+primeiro_numero = 20
+segundo_numero = 20
 
-print(primeiro_valor < segundo_valor)  # True
-print(primeiro_valor > segundo_valor)  # False
-print(primeiro_valor == segundo_valor)  # False
-print(primeiro_valor != segundo_valor)  # True
+print(primeiro_numero < segundo_numero)
+print(primeiro_numero <= segundo_numero)
+print(primeiro_numero > segundo_numero)
+print(primeiro_numero >= segundo_numero)
+print(primeiro_numero == segundo_numero)
+print(primeiro_numero != segundo_numero)

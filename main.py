@@ -1,13 +1,11 @@
-my_variable: str = "Hello World"
-myVariable: str = "Hello World"
-my_string: str = "Nome"
-my_integer: int = 42
-my_float: float = 42.92384
+my_variable: str = 'Hello World'
+my_integer: int = 23
+my_float: float = 42.35
 my_boolean: bool = True
 my_list: list = ["maça", "banana", "cupuaçu"]
-# Lists are ordered, mutable collections of values.
+my_list_numeber: list = [0, 2, 4, 7]
 my_tuple: tuple = ("maça", "banana", "cupuaçu")
-my_tuple_integer: tuple = (1, 2, 3)
+my_tuple_number: tuple = (0, 1, 2, 6, 1, 4)
 
-print(my_variable)
-print(type(my_tuple))
+print(my_tuple_number)
+print(type(my_list))

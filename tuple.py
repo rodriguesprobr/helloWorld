@@ -1,5 +1,5 @@
-tupla = ("bacuri", "uxi", "cupuaçu", "cupuaçu")
-tupla_numerica = (1, 2, 3)
+tupla = ("muruci", "bacuri", "biribá")
+tupla_numerica = (1, 1.234, 54, -12)
 
-print(tupla.index("uxi"))
-print(tupla.count("cupuaçu"))
+print(tupla.index("bacuri"))
+print(tupla_numerica.count(54))
