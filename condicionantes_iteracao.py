@@ -1,4 +1,4 @@
-import csv
+import csv_class
 
 # Variável com o caminho e o nome do arquivo CSV a ser aberto.
 csv_file = "C:\\Users\\ferna\\Downloads\\2020_BR_Region_Mobility_Report.csv"

@@ -1,11 +1,14 @@
-my_variable: str = 'Hello World'
-my_integer: int = 23
-my_float: float = 42.35
-my_boolean: bool = True
-my_list: list = ["maça", "banana", "cupuaçu"]
-my_list_numeber: list = [0, 2, 4, 7]
-my_tuple: tuple = ("maça", "banana", "cupuaçu")
-my_tuple_number: tuple = (0, 1, 2, 6, 1, 4)
+from csv_class import csv_class
 
-print(my_tuple_number)
-print(type(my_list))
+arquivo_ci = csv_class("C:\\Users\\ferna\\Downloads\\qualis_ci.csv")
+arquivo_geo = csv_class("C:\\Users\\ferna\\Downloads\\qualis_geo.csv")
+arquivo_ci.abrir()
+arquivo_geo.abrir()
+header_ci = arquivo_ci.ver_header()
+header_geo = arquivo_geo.ver_header()
+estrato_b2_ci = arquivo_ci.pesquisar_estrato("B2")
+estrato_b2_geo = arquivo_geo.pesquisar_estrato("B2")
+estrato_b2_ci.insert(0, header_ci)
+estrato_b2_geo.insert(0, header_geo)
+print(estrato_b2_ci)
+print(estrato_b2_geo)
